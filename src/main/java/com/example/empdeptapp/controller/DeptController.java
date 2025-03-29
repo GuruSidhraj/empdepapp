@@ -13,7 +13,7 @@ import com.example.empdeptapp.entity.Dept;
 import com.example.empdeptapp.service.DeptService;
 
 @RestController
-@RequestMapping("/departments")
+@RequestMapping("/dept")
 public class DeptController {
 
 	@Autowired
