@@ -40,6 +40,10 @@ public class Dept {
 	public Dept() {
 		super();
 	}
+	@Override
+	public String toString() {
+		return "Dept [id=" + id + ", name=" + name + ", location=" + location + "]";
+	}
 	
 	
 }
